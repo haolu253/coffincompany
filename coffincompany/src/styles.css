@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+nav{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.8);
+    margin: 0 70px;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  
+  div{
+      margin-left: 50px;
+      margin-right: 50px;
+  }
