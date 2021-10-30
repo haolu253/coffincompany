@@ -23,7 +23,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/assets/img/icon.jpg",
+              "src/assets/imgs/icon.jpg",
               "src/assets"
             ],
             "styles": [
