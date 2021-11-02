@@ -8,18 +8,18 @@
 
 .nofixed{
     position: absolute;
-    top: 5px;
+    top: 30px;
     left: 0px;
     width: 100%;
 }
 
 nav ul {
-    margin: 0;
-    padding: 0;
     display: flex;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 210px;
+    padding-right: 210px;
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
 
 nav ul li {
@@ -32,12 +32,12 @@ nav ul li:first-child {
 }
 
 nav .linofixed li a {
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 18px;
     color: white;
     display: block;
-    padding: 30px 40px;
+    padding: 20px;
     text-decoration: none;
 }
 
@@ -48,18 +48,22 @@ nav .linofixed li a:hover {
 
 
 nav .lifixed li a {
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 18px;
     color: black;
     display: block;
-    padding: 30px 40px;
+    padding: 20px;
     text-decoration: none;
 }
 
 nav .lifixed li a:hover {
       color:#af1323;
       text-decoration: none;
+}
+
+li .active{
+    color:#af1323;
 }
 
 #wall {
