@@ -1,10 +1,19 @@
-<nav>
-    <ul>
-      <li><a class="logo"><img src="assets/imgs/navlogo.jpg" width="130px" height="auto"></a></li>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="">TASKFORCE</a></li>
-      <li><a href="">GUIDE</a></li>
-      <li><a href="">ABOUT</a></li>
-    </ul>
-</nav>  
-<img class="wall" src="assets/imgs/main.jpg">
+<body>
+  <div class="container">
+    <header>
+      <nav id="navbar" (scroll)="onScroll()" [ngClass]="navbarfixed?'fixed':'nofixed'">
+        <ul [ngClass]="listfixed?'lifixed':'linofixed'">
+          <li id="logo"><a><img src="assets/imgs/navlogo.jpg" width="130px" height="auto"></a></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="">TASKFORCE</a></li>
+          <li><a href="">GUIDE</a></li>
+          <li><a href="">ABOUT</a></li>
+        </ul>
+      </nav>  
+    </header>
+  </div>
+</body>
+<img id="wall" src="assets/imgs/main.jpg">
+<img id="wall" src="assets/imgs/main.jpg">
+<img id="wall" src="assets/imgs/main.jpg">
+<img id="wall" src="assets/imgs/main.jpg">
