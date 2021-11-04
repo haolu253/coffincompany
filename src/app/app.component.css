@@ -62,10 +62,6 @@ nav .lifixed li a:hover {
       text-decoration: none;
 }
 
-li .active{
-    color:#af1323;
-}
-
 #wall {
     width:100%;
     height: auto;
