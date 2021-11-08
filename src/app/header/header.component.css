@@ -1,3 +1,7 @@
+header{
+    transition: 0.2s;
+}
+
 .fixed{
     position: fixed;
     background-color: white;
