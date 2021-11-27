@@ -3,10 +3,6 @@
     height: auto;
 }
 
-.container{
-    padding-top: 2vw;
-}
-
 h3 {
     font-weight: bold;
     width: 100%; 
@@ -20,3 +16,44 @@ h3 {
      background:#fff; 
      padding:0 10px; 
  }
+
+ .grid-item {
+    margin-top: 4vw;
+ }
+
+ .container {
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     flex-flow: wrap;
+ }
+
+ .box {
+     width: 30%;
+     height: 200px;
+     box-sizing: border-box;
+     margin-bottom: 20px;
+     border-radius: 10px;
+     background-color: black;
+     color: white;
+     text-align: center;
+ }
+
+ .box:hover {
+     background-color: #af1323;
+ }
+
+ /*responsive cua cai box*/
+ @media screen and (max-width:1000px) {
+     .box{
+        width: 40%;
+     }
+ }
+
+ @media screen and (max-width:999px) {
+    .box{
+        width: 90%;
+    }
+}
