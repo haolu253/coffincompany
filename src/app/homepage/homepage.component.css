@@ -48,13 +48,19 @@ h3 {
  }
 
  /*responsive cua cai box*/
- @media screen and (max-width:1000px) {
+ @media screen and (min-width:1600px) {
+    h3 {
+        font-size: 40px;
+    }
      .box{
         width: 40%;
      }
  }
 
  @media screen and (max-width:999px) {
+    h3 {
+        font-size: 20px;
+    }
     .box{
         width: 90%;
     }
